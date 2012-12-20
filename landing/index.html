@@ -1,0 +1,37 @@
+---
+layout: default
+main_value: Awesome Default Landing Pages
+
+benefit_1: Amazing First Benefit.
+copy_1: This copy explains what the first benefit does.
+
+benefit_2: Second Benefit is Even Better.
+copy_2: This should convince the potential customer to sign up.
+
+benefit_3: It's Freakin' Awesome!
+copy_3: Integrates quickly and easily, without hassle.
+
+button_text: Plans & Pricing
+second_page_location: return.html
+---
+
+<div class="row-fluid marketing">
+  <div class="span8">
+    <h2>{{ page.benefit_1 }}</h2>
+    <p>{{ page.copy_1 }}</p>
+
+    <h2>{{ page.benefit_2 }}</h2>
+    <p>{{ page.copy_2 }}</p>
+
+    <h2>{{ page.benefit_3 }}</h2>
+    <p>{{ page.copy_3 }}</p>
+  </div>
+
+  <div class="span4 button-center">
+	<div style="position:relative;top:55px;left:-165px">
+	  <img style="position:absolute" src="/bootstrap/img/arrow.png">
+	</div>
+
+	<a class="btn btn-large btn-success" href="{{ page.second_page_location }}">{{ page.button_text }}</a>
+  </div>
+</div>

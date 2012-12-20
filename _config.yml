@@ -1,0 +1,5 @@
+auto: true
+app_name: YourAppName
+mailchimp: mailchimpURL...
+google-analytics: UA-XXXXXXXX-1
+domain: example.com
